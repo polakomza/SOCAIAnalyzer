@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Secretos y configuración privada
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Datos locales y evidencia SOC
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/uploads/*
+data/processed/*
+data/database/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/database/.gitkeep
+output/reports/*
+!output/reports/.gitkeep
+
+# Registros y temporales
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Entorno de pruebas
+.venv-test/
+
+# Archivos de registros de seguridad
+*.xlsx
+*.xls
+*.csv
+
+# Informes exportados
+*.pdf
+
+!data/.gitkeep
+
+# Copias comprimidas del proyecto
+*.zip

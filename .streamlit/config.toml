@@ -1,0 +1,11 @@
+﻿<CodeBlock language="toml" editable>
+[server]
+address = "127.0.0.1"
+port = 8501
+maxUploadSize = 50
+enableCORS = true
+
+
+[browser]
+gatherUsageStats = false
+</CodeBlock>

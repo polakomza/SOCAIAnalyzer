@@ -1,0 +1,107 @@
+
+{
+  "timestamp": [
+    "@timestamp",
+    "timestamp",
+    "_time",
+    "TimeGenerated",
+    "EventTime",
+    "datetime",
+    "fecha",
+    "fecha_hora"
+  ],
+  "source_ip": [
+    "src_ip",
+    "srcip",
+    "data.srcip",
+    "SourceIP",
+    "SourceIPAddress",
+    "IpAddress",
+    "client_ip",
+    "ip_origen"
+  ],
+  "destination_ip": [
+    "dst_ip",
+    "dstip",
+    "data.dstip",
+    "DestinationIP",
+    "DestinationIPAddress",
+    "dest_ip",
+    "ip_destino"
+  ],
+  "username": [
+    "user",
+    "username",
+    "user_name",
+    "AccountName",
+    "TargetUserName",
+    "data.dstuser",
+    "usuario"
+  ],
+  "event_id": [
+    "Event_ID",
+    "EventID",
+    "EventCode",
+    "event.code",
+    "event_id"
+  ],
+  "event_type": [
+    "event_type",
+    "EventType",
+    "EventName",
+    "action",
+    "Activity",
+    "tipo_evento"
+  ],
+  "event_description": [
+    "message",
+    "Message",
+    "description",
+    "Event_Description",
+    "rule.description",
+    "signature",
+    "ActivityDisplayName",
+    "descripcion"
+  ],
+  "severity": [
+    "severity",
+    "Severity",
+    "SeverityLevel",
+    "rule.level",
+    "level",
+    "criticidad"
+  ],
+  "source": [
+    "source",
+    "sourcetype",
+    "Log_Source",
+    "agent.name",
+    "Computer",
+    "DeviceName",
+    "origen"
+  ],
+  "process_commandline": [
+    "Process_CommandLine",
+    "CommandLine",
+    "Command_Line",
+    "ProcessCommandLine",
+    "Command",
+    "process.command_line"
+  ],
+  "result": [
+    "Result",
+    "Status",
+    "Outcome"
+  ],
+  "destination": [
+    "Destination",
+    "DestinationHost",
+    "DestinationHostname",
+    "dest_host"
+  ],
+  "hostname": [
+    "Hostname",
+    "Host",
+    "ComputerName"
+  ]
+}
